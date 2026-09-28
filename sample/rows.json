@@ -1,0 +1,16 @@
+{
+  "budget": 2,
+  "bad_pk_code": "E_BAD_PK",
+  "bad_sk_code": "E_BAD_SK",
+  "dup_code": "E_DUP_PK",
+  "missing_code": "E_NO_PK",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "main": [], "aux": [], "cleaned": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "insert", "pk": 1, "sk": "a" },
+    { "id": 2, "kind": "insert", "pk": 2, "sk": "b" },
+    { "id": 3, "kind": "insert", "pk": 3, "sk": "a" },
+    { "id": 4, "kind": "remove", "pk": 2 },
+    { "id": 5, "kind": "remove", "pk": 1 }
+  ]
+}
